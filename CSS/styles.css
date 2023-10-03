@@ -98,6 +98,21 @@ body {
     z-index: 45;  
 }
 
+#About {
+ border: 2px solid yellow;
+}
+#About .card-body{
+    background-color: #7c8188;
+    background-size: cover;
+}
+
+#About .roundB{
+    border: 2px solid #7c8188;
+    border-radius: 50%;
+    color: #ababab;
+   
+}
+
 .nav-link.active{
     color:#114adc;
 }
@@ -108,16 +123,18 @@ body {
     /* border: 2px solid yellow; */
 }
 .list-inline {
-    /* background-color: #ec5f79; */
+    background-color: #ec5f79;
     color: #eee;
     display: flex;
     padding-left: 15px;
-    padding-right: 10px;
-    margin-left: 50px;
+    margin-left: 100px;
+    align-items: center;
     justify-content:space-around;
 }
 
 .list-inline .list-item :hover{
+    background-color: #ec5f79;
+    border-radius: 15px;
 
 }
 
@@ -131,21 +148,27 @@ body {
 }
 
 #Blog{
-   
-    /* border: 2px solid purple;    */
+    border-width: 22px;
 }
 
 #Blog .cards{
-    border:2px solid #7c8188;
+    /* border:2px solid #7c8188; */
     border-radius: 10px;
+    background-color:#3b3e42;
     /* border: 2px solid rgb(0, 98, 128);    */
+}
+
+#Blog .cards a{
+
+    border-radius: 15px;
+    border: 5px solid purple;   
 }
 
 #Service{
     /* border: 2px solid blue; */
     padding: 20px;
-    margin-left: 40px;
-    padding-left: 50px;
+    margin-left: 10px;
+    padding-left: 20px;
   
 
 }
